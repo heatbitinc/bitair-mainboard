@@ -1,0 +1,6466 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A")
+	(title_block
+		(title "Bitair MainBoard")
+		(date "2026-08-23")
+		(rev "V1.22")
+		(company "Heatbit Inc.")
+		(comment 1 "Based on bitaxeGamma (c) 2024-2025 bitaxeorg, github.com/bitaxeorg/bitaxeGamma")
+		(comment 2 "Modifications (c) 2026 Heatbit Inc. See NOTICE.md for the list of changes")
+		(comment 3 "Licensed under CERN-OHL-S-2.0 (see LICENSE)")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "T34069_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "T34069"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitair:XFCN_PKT-TH_4P-T34069"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C481452"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "T34069_1_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 6.35 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 6.35 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:2N7002E"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002E"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30376.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7002E_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7002E_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bitair:S10B-PHDSS(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S10B-PHDSS(LF)(SN)"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitair:CONN-TH_S10B-PHDSS-LF-SN"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/PH-Connectors_JST_S10B-PHDSS-LF-SN_PHDseries-socket-2-5P-pitch2mm-Curved-needle_C161672.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C161672"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S10B-PHDSS(LF)(SN)_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bitair:SMTSO3025CTJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMTSO3025CTJ"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitair:SMD_BD5.6-D4.1"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2916365"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMTSO3025CTJ_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bitair:T34069"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "T34069"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitair:XFCN_PKT-TH_4P-T34069"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C481452"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "T34069_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 6.35 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 6.35 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Board Spacers"
+		(exclude_from_sim no)
+		(at 36.8787 67.2343 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "67b2b3d8-eeca-4dc5-918a-009515e5ee40")
+	)
+	(text "PCB SOLDERING TERMINAL"
+		(exclude_from_sim no)
+		(at 36.8444 117.6411 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "8e60daff-309d-41cc-a4b3-a256006ab9dd")
+	)
+	(text "INPUT POWER\nPWM LOGIC\nAIR SENSOR\nLED"
+		(exclude_from_sim no)
+		(at 74.5397 28.8272 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "a0a15a70-f358-4cb2-839e-67aaaeea05ef")
+	)
+	(text "REVISIONS (see CHANGELOG.md)\n\nV1.00\n  - First release (2026-07-10)\nV1.11\n  - 1.1 X1&X2 terminals moved on bottom side\n  - 1.2 CN1 5&7&9 pins mirrored with 6&8&10\n  - 1.3 CN1 is replaced by B10B-PHDSS-LF-SN (vertical)\n  - 1.4 CN1 5&7 added I2C for temp sensor AHT20\n  - 1.5 CN1 moved on bottom side\n  - 1.6 FIDs deleted\n  - 3.1 Added FAN_PWM on GPIO35\n  - 4.1 Added pulldown res 0402 R41=5.1K (RST for BM1370)\n  - 4.2 Added pullup 4.7K for I2C\n  - 5.1 Deleted FAN_PWM control from EMC2101\n  - 6.1 R29=R30=4.7Ohm\n  - 6.2 R20=2MOhm, R26=220K\n  - 6.3 L2 is replaced by FXL1050-4R7-M\nV1.22\n  - 3.1 Removed FAN_PWM from GPIO35\n  - 5.1 Added FAN_PWM to EMC2101"
+		(exclude_from_sim no)
+		(at 110.8499 72.6711 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3dab4c4-8cdd-4c3c-aa85-c133c8ba1c50")
+	)
+	(text "TX for TPM"
+		(exclude_from_sim no)
+		(at 64.5289 55.0323 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7574794-0126-4411-a88d-d7bb9ef897d0")
+	)
+	(junction
+		(at 39.1592 83.5258)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "016a2498-1080-4ca0-98bd-549e55ba669f")
+	)
+	(junction
+		(at 43.18 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07978a4f-cdc7-476b-98d7-6393d7367ba6")
+	)
+	(junction
+		(at 30.48 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c8fee1-7bee-49ae-8a83-bfa3fe48b2a8")
+	)
+	(junction
+		(at 39.1592 86.0658)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35659786-28c1-4e72-9938-948df4c41cbb")
+	)
+	(junction
+		(at 25.1892 88.6058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35c1f616-6521-475a-b71a-3307cf28d244")
+	)
+	(junction
+		(at 234.1159 116.5363)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55033ea4-52b5-46f6-b909-193ee90f64f8")
+	)
+	(junction
+		(at 39.1592 88.6058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e52901-b934-445d-bde3-a6c5b7f109dc")
+	)
+	(junction
+		(at 25.1892 103.8458)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5654e2a8-7c8a-4537-b012-110345fa57a7")
+	)
+	(junction
+		(at 30.48 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65ab64d1-c291-4a64-828d-04f2a32afd4b")
+	)
+	(junction
+		(at 64.863 42.8399)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28325b3-9aea-40ec-9596-17e99c6419d5")
+	)
+	(junction
+		(at 94.0048 89.3724)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a94fa6f9-bade-428e-aa32-18994eebf10a")
+	)
+	(junction
+		(at 43.18 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3529108-95f8-4f53-aa24-d84219fea851")
+	)
+	(junction
+		(at 39.1592 101.3058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fa6493-38c6-466e-99e7-ed94c01bad20")
+	)
+	(junction
+		(at 231.5759 119.0763)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d94326-b3b8-44e3-95be-698fd44134ef")
+	)
+	(junction
+		(at 39.1592 106.3858)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbd0f594-585c-4ff2-99ac-447839e4aff0")
+	)
+	(junction
+		(at 25.1892 83.5258)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daf7aaf3-4743-4d0e-af25-dcf9df30cbd6")
+	)
+	(junction
+		(at 94.2472 96.8744)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd9251c-91ec-4cdf-8988-2e393b69a6c3")
+	)
+	(junction
+		(at 25.1892 106.3858)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e5363b-d607-4bbe-a9a6-e95ac27c7fdc")
+	)
+	(junction
+		(at 25.1892 101.3058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3a1387-dd6f-4cbc-9ba5-b31ed8cbb884")
+	)
+	(junction
+		(at 39.1592 103.8458)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8303e37-51aa-4a81-bcd8-1f816036d860")
+	)
+	(junction
+		(at 25.1892 86.0658)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9db0395-4923-42ce-a6a9-4e79257ee662")
+	)
+	(wire
+		(pts
+			(xy 94.0048 89.3267) (xy 94.0048 89.3724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0077999b-d952-436f-96d0-499f89b8d01a")
+	)
+	(wire
+		(pts
+			(xy 37.2021 42.8399) (xy 25.7721 42.8399)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01dc9da4-5f95-4f60-9a79-e7a837c38867")
+	)
+	(wire
+		(pts
+			(xy 39.1592 103.8458) (xy 39.1592 106.3858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064ec164-dec4-4ced-890c-1b1ca7b05609")
+	)
+	(wire
+		(pts
+			(xy 158.0423 91.139) (xy 159.7901 91.139)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae79a67-6dc9-433b-a8ce-6347ccde17f1")
+	)
+	(wire
+		(pts
+			(xy 25.7721 49.1899) (xy 25.7721 50.4599)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eabf7e5-a7e0-40a3-bc24-ace65f069e1a")
+	)
+	(wire
+		(pts
+			(xy 154.1059 93.6763) (xy 231.5759 93.6763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1008bb02-8344-46f8-976d-62e4c3e2844c")
+	)
+	(wire
+		(pts
+			(xy 176.9659 148.2863) (xy 199.8259 148.2863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c225e2-ce7a-43df-b197-de234325184e")
+	)
+	(wire
+		(pts
+			(xy 39.1592 86.0658) (xy 39.1592 88.6058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1369f071-351c-456d-ab62-4a990d8b8dc8")
+	)
+	(wire
+		(pts
+			(xy 103.7966 89.3267) (xy 94.0048 89.3267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1562be8a-47df-4e55-be3d-760d4e43db33")
+	)
+	(wire
+		(pts
+			(xy 221.4159 119.0763) (xy 231.5759 119.0763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a84495c-9130-4980-bd4e-b3e4294f8c4b")
+	)
+	(wire
+		(pts
+			(xy 192.2892 153.9145) (xy 199.8259 153.9145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3431c7-baf5-4883-81f2-04346bffaf6e")
+	)
+	(wire
+		(pts
+			(xy 94.2472 96.8744) (xy 95.5172 96.8744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2053dc29-65a9-498f-a8d1-8d1795446500")
+	)
+	(wire
+		(pts
+			(xy 194.7665 110.0723) (xy 199.8259 110.0723)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232f4691-63e7-45d5-a415-080d70d3a962")
+	)
+	(wire
+		(pts
+			(xy 171.8859 121.6163) (xy 171.8859 116.5363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2332902f-4a00-42fd-b9c0-f439a58c7a6a")
+	)
+	(wire
+		(pts
+			(xy 155.3759 124.1563) (xy 174.4259 124.1563)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24774115-230a-4b7e-a58b-d217c1c1593b")
+	)
+	(wire
+		(pts
+			(xy 190.9359 135.5863) (xy 199.8259 135.5863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26396d33-8fe3-498b-bb53-9a3aeb514721")
+	)
+	(wire
+		(pts
+			(xy 221.4159 157.1763) (xy 230.8975 157.1763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a3bb65-02ee-4bca-ab10-b28c3b4a3e91")
+	)
+	(wire
+		(pts
+			(xy 60.0621 47.9199) (xy 64.863 47.9199)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3467bdce-cb86-4588-9029-489d2d444e1a")
+	)
+	(wire
+		(pts
+			(xy 43.5521 40.2999) (xy 43.5521 41.5699)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359895aa-1b6a-45bd-957b-0421de07fb5c")
+	)
+	(wire
+		(pts
+			(xy 39.1592 98.7658) (xy 39.1592 101.3058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d5e011-5c73-4c0a-9b0e-27990518dd1d")
+	)
+	(polyline
+		(pts
+			(xy 109.9823 19.9686) (xy 110.0061 73.8963)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b92bbf0-9207-4572-af0a-0516756e5d8f")
+	)
+	(wire
+		(pts
+			(xy 25.1892 80.9858) (xy 25.1892 83.5258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408e1ae2-2e06-4d33-886f-7e462ab3de0e")
+	)
+	(polyline
+		(pts
+			(xy 109.9823 25.0486) (xy 230.6326 25.0181)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a6699d-f230-498f-a100-713ed37b7ef8")
+	)
+	(wire
+		(pts
+			(xy 25.7721 42.8399) (xy 25.7721 44.1099)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ead02f-75ca-4b0a-b794-884efae72af7")
+	)
+	(wire
+		(pts
+			(xy 85.183 52.9999) (xy 94.8338 52.9999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448194d5-a723-4305-a849-59ff6ee3b416")
+	)
+	(wire
+		(pts
+			(xy 89.9484 96.8702) (xy 89.9484 96.8744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0d79a0-69f3-4e0c-bf8e-de71c8bb670a")
+	)
+	(wire
+		(pts
+			(xy 39.1592 80.9858) (xy 39.1592 83.5258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0de0e4-606a-4601-bb33-60c671ec4dfc")
+	)
+	(wire
+		(pts
+			(xy 25.7721 50.4599) (xy 32.1221 50.4599)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd182a5-3799-4103-9254-733522769be1")
+	)
+	(wire
+		(pts
+			(xy 192.2059 157.1763) (xy 199.8259 157.1763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ba9129-b1a0-4373-8692-8d984b02e6d9")
+	)
+	(wire
+		(pts
+			(xy 30.48 128.27) (xy 30.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5967c581-eacd-4361-b21b-5f6cfc1fe12e")
+	)
+	(wire
+		(pts
+			(xy 25.1892 103.8458) (xy 25.1892 106.3858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b16f654-5178-4e3a-8fae-5f0d71230051")
+	)
+	(wire
+		(pts
+			(xy 234.1159 96.2163) (xy 234.1159 116.5363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67316bbe-4f68-40a1-a506-e3f919a61a4f")
+	)
+	(wire
+		(pts
+			(xy 199.8259 150.8263) (xy 174.4259 150.8263)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad0e93a-8a03-478b-a7f2-d660e1a7eff4")
+	)
+	(wire
+		(pts
+			(xy 176.9659 121.6163) (xy 199.8259 121.6163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffed1a3-a7c1-4e99-a6a1-26d289b562e3")
+	)
+	(wire
+		(pts
+			(xy 154.1059 96.2163) (xy 234.1159 96.2163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709afa4e-d8c4-4691-895e-92848cbcc479")
+	)
+	(wire
+		(pts
+			(xy 225.4527 130.5063) (xy 221.4159 130.5063)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71115530-39f6-4c71-962c-b02f7d1e0171")
+	)
+	(polyline
+		(pts
+			(xy 230.6485 19.9336) (xy 109.9823 19.9686)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7295edba-1fd5-485e-840e-9c5dc46d69af")
+	)
+	(wire
+		(pts
+			(xy 54.9821 40.2999) (xy 43.5521 40.2999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759a58c9-0bb7-4519-b1d7-e0a406504360")
+	)
+	(wire
+		(pts
+			(xy 94.5204 47.9199) (xy 85.183 47.9199)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78640e36-ff8e-43fd-af00-6fb1cc289a32")
+	)
+	(wire
+		(pts
+			(xy 43.5521 47.9199) (xy 49.9021 47.9199)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6991b9-8bc3-4fca-afc8-3c39822a86a6")
+	)
+	(wire
+		(pts
+			(xy 158.0423 91.139) (xy 158.0423 91.1363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbf6f42-d35e-4985-8b3b-bcdd6554c12d")
+	)
+	(wire
+		(pts
+			(xy 226.7227 130.5076) (xy 225.4527 130.5076)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8477a29a-8029-44ba-beec-b9e1357b1629")
+	)
+	(wire
+		(pts
+			(xy 190.9359 130.5063) (xy 199.8259 130.5063)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8478d7e2-a004-4534-a71e-7f784e900add")
+	)
+	(wire
+		(pts
+			(xy 231.5759 119.0763) (xy 231.5759 153.3663)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870045dc-784f-4e4b-9bae-c25848ef142a")
+	)
+	(polyline
+		(pts
+			(xy 230.6485 19.9336) (xy 230.6477 73.8734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89912e07-000c-44af-906c-5094f73d4dd3")
+	)
+	(wire
+		(pts
+			(xy 231.5759 93.6763) (xy 231.5759 119.0763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ace5b8b-7377-49c8-9eb1-d8a1aa7310cc")
+	)
+	(wire
+		(pts
+			(xy 221.4159 116.5363) (xy 234.1159 116.5363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9e0a2a-432e-41bb-b56e-cc291b9327d8")
+	)
+	(wire
+		(pts
+			(xy 225.4527 130.5076) (xy 225.4527 130.5063)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9027ce51-aac2-478a-83ef-393ec2a27bc8")
+	)
+	(wire
+		(pts
+			(xy 176.9659 126.6963) (xy 176.9659 121.6163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9196314f-1a42-4d9a-8958-4f94bb496e1f")
+	)
+	(wire
+		(pts
+			(xy 128.7059 129.2363) (xy 137.5959 129.2363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b86feb-5ede-40c6-a7f8-7f1c2f5a9e9e")
+	)
+	(wire
+		(pts
+			(xy 158.0423 91.1363) (xy 154.1059 91.1363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b25cca-b414-40cf-913e-b8bbd9fb1396")
+	)
+	(wire
+		(pts
+			(xy 88.6784 89.3724) (xy 94.0048 89.3724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6e7d68-75b9-485e-8afd-07bc3b12ed2d")
+	)
+	(wire
+		(pts
+			(xy 155.3759 121.6163) (xy 171.8859 121.6163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9d7ce5-9f64-46fa-83b5-378b1dc13925")
+	)
+	(wire
+		(pts
+			(xy 89.9484 96.8744) (xy 94.2472 96.8744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5de6216-2dcb-4bee-a090-5afdcc672a1f")
+	)
+	(wire
+		(pts
+			(xy 221.4159 133.0463) (xy 226.6927 133.0463)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72c1dc8-7ebf-4d22-b00b-9bb750a6067b")
+	)
+	(wire
+		(pts
+			(xy 39.1592 83.5258) (xy 39.1592 86.0658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d2f44e-2b51-4c4f-983f-a68a5f1a260a")
+	)
+	(wire
+		(pts
+			(xy 221.4159 150.8263) (xy 234.1159 150.8263)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90c3150-3b08-4013-9223-de5bb8ffb554")
+	)
+	(wire
+		(pts
+			(xy 25.1892 86.0658) (xy 25.1892 88.6058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abca3070-1be7-45d9-ac5b-29e928325d8f")
+	)
+	(wire
+		(pts
+			(xy 43.18 128.27) (xy 43.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4823da-03e8-41da-8b6b-d404751ac6e2")
+	)
+	(wire
+		(pts
+			(xy 126.1659 124.1563) (xy 126.1659 97.4863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b075a3-0171-47ef-a412-35416e4fb492")
+	)
+	(wire
+		(pts
+			(xy 43.5521 46.6499) (xy 43.5521 47.9199)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ce24d9-d59d-48e0-811a-1a702db3c636")
+	)
+	(wire
+		(pts
+			(xy 155.3759 131.7763) (xy 176.9659 131.7763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72a5341-da25-46ad-818b-dc1fb1f8f784")
+	)
+	(polyline
+		(pts
+			(xy 110.0061 73.8963) (xy 230.6477 73.8734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b731453c-e15a-4117-b115-d7a5ff9efbc8")
+	)
+	(wire
+		(pts
+			(xy 174.4259 124.1563) (xy 174.4259 119.0763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bf3fbd-d4e2-434e-99b8-c41633fca6fd")
+	)
+	(wire
+		(pts
+			(xy 221.4159 153.3663) (xy 231.5759 153.3663)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c51a48-9b6c-4b66-94e7-cccd7d2cc314")
+	)
+	(wire
+		(pts
+			(xy 94.4224 50.4599) (xy 85.183 50.4599)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c082b139-3ca1-4315-97d9-da593d3e8a9e")
+	)
+	(wire
+		(pts
+			(xy 128.7059 126.6963) (xy 137.5959 126.6963)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12365dd-1dcd-493f-bb53-77fba132d7a3")
+	)
+	(wire
+		(pts
+			(xy 174.4259 134.3163) (xy 155.3759 134.3163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c220fd23-57a0-4d59-b491-db11d9d460e5")
+	)
+	(wire
+		(pts
+			(xy 43.18 144.78) (xy 43.18 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c961297f-4ccb-424d-b83f-9db9bdc6441b")
+	)
+	(wire
+		(pts
+			(xy 234.1159 150.8263) (xy 234.1159 116.5363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3abdec-846c-4b09-b862-6e75137c0314")
+	)
+	(wire
+		(pts
+			(xy 25.1892 101.3058) (xy 25.1892 103.8458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf31c79-b2ac-4a5a-b57e-1b16a1f3e26b")
+	)
+	(wire
+		(pts
+			(xy 94.0048 89.3724) (xy 94.0048 89.3733)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d021bdc4-ce7c-4e17-a78b-9dd3c25e6282")
+	)
+	(wire
+		(pts
+			(xy 63.4136 52.9999) (xy 64.863 52.9999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03da6ac-16e2-428e-a1d4-2f8cb11843c4")
+	)
+	(wire
+		(pts
+			(xy 120.3066 89.3267) (xy 137.5959 89.3267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a7bb5c-3f06-4955-aa80-3766a2dadfc0")
+	)
+	(wire
+		(pts
+			(xy 154.1059 105.1063) (xy 199.8259 105.1063)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e68719-f5d8-401d-8209-df1c86a78913")
+	)
+	(wire
+		(pts
+			(xy 42.2821 50.4599) (xy 64.863 50.4599)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14bdbf3-fc80-4c1d-a636-9e184e976ee3")
+	)
+	(wire
+		(pts
+			(xy 154.1059 102.5663) (xy 199.8259 102.5663)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd46077f-9ee9-4ed6-949b-22f57ccde5fe")
+	)
+	(wire
+		(pts
+			(xy 39.1592 101.3058) (xy 39.1592 103.8458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de68019b-4287-4506-ae12-087ffd285e12")
+	)
+	(wire
+		(pts
+			(xy 176.9659 131.7763) (xy 176.9659 148.2863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fa663f-4b77-4d4c-917d-90bbde59d885")
+	)
+	(wire
+		(pts
+			(xy 171.8859 116.5363) (xy 199.8259 116.5363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62ce085-6b9c-4afe-8112-8d5514649a92")
+	)
+	(wire
+		(pts
+			(xy 88.6784 96.8702) (xy 89.9484 96.8702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78c41e1-18aa-4d00-8c0a-e9463970626e")
+	)
+	(wire
+		(pts
+			(xy 30.48 144.78) (xy 30.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e873087a-d9be-44b1-9a6f-d04c8db692cf")
+	)
+	(wire
+		(pts
+			(xy 190.9359 133.0463) (xy 199.8259 133.0463)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88c5b1f-1a8b-45ce-9e00-392b37d411a9")
+	)
+	(wire
+		(pts
+			(xy 137.5959 124.1563) (xy 126.1659 124.1563)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb81b6da-90c7-4ee9-8d6f-2e65a34573ed")
+	)
+	(wire
+		(pts
+			(xy 126.1659 97.4863) (xy 137.5959 97.4863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec422df9-5d35-4c80-bd6c-c8a8d2e434d7")
+	)
+	(wire
+		(pts
+			(xy 155.3759 126.6963) (xy 176.9659 126.6963)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5db6b3-7b11-4644-b373-bba02fc5eaa6")
+	)
+	(wire
+		(pts
+			(xy 174.4259 119.0763) (xy 199.8259 119.0763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0aa9f41-8e19-42a6-873c-a81dba8fdfcb")
+	)
+	(wire
+		(pts
+			(xy 25.1892 83.5258) (xy 25.1892 86.0658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12793e4-318e-49c4-b500-515bf91a428e")
+	)
+	(wire
+		(pts
+			(xy 25.1892 98.7658) (xy 25.1892 101.3058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22237af-c527-4fc6-96b1-3258fe2fdbe7")
+	)
+	(wire
+		(pts
+			(xy 174.4259 150.8263) (xy 174.4259 134.3163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32a6ec1-ea0c-415d-a8d9-ccb5fab66eba")
+	)
+	(wire
+		(pts
+			(xy 221.4159 105.1063) (xy 226.4143 105.1063)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f411b06d-99c3-490e-a0fb-5b73ef3b000a")
+	)
+	(label "SCL"
+		(at 44.8221 47.9199 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05cf5d9d-52e9-433a-b786-fd5972ac1736")
+	)
+	(label "3V3"
+		(at 25.7721 42.8399 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18165c2b-ede5-4f45-b28e-508752987e19")
+	)
+	(label "LED"
+		(at 94.5204 47.9199 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a026d6d-aa0e-43c0-85d5-c85563cd54ab")
+	)
+	(label "B"
+		(at 63.4136 52.9999 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1af5f631-c03d-4b39-b9fb-b974a533f4ad")
+	)
+	(label "VDD"
+		(at 190.9359 130.5063 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f0b9d1-0424-417d-841e-45c0f4485235")
+	)
+	(label "3V3"
+		(at 128.7059 129.2363 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30c533f9-11ff-4e26-9cd5-9ad060205a39")
+	)
+	(label "RST"
+		(at 190.9359 121.6163 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31bace7a-59c6-47e2-8542-fcbbfc29ee60")
+	)
+	(label "VDD"
+		(at 128.7059 124.1563 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33c9c692-c27c-41eb-ae96-a441b5ef3c16")
+	)
+	(label "LED"
+		(at 226.7227 130.5076 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39f64d29-22d9-49d4-933a-05705aa3bd29")
+	)
+	(label "5V"
+		(at 122.8491 89.3267 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b1dfdbd-5caf-4ec5-bad2-60a39cc5a4eb")
+	)
+	(label "FAN_PWM"
+		(at 230.8975 157.1763 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b629162-c50d-49af-88ae-7f383ed450aa")
+	)
+	(label "B"
+		(at 226.4143 105.1063 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "587c7bb0-ff83-4ce7-9474-378f70f4d394")
+	)
+	(label "SDA"
+		(at 222.6859 116.5363 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64bb4b1d-9141-410f-bc37-011ad71f877f")
+	)
+	(label "3V3"
+		(at 43.5521 40.2999 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65c1d937-fb7c-4d92-8e48-07048e1142c5")
+	)
+	(label "5V"
+		(at 192.2892 153.9145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6960b78f-4a58-4820-825d-06f94cd7b333")
+	)
+	(label "RX"
+		(at 190.9359 116.5363 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "795c3981-9287-49b0-96d8-85ab23b8e5a9")
+	)
+	(label "FAN"
+		(at 94.4224 50.4599 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8679807c-e21d-41c5-84bc-7beede4a0d12")
+	)
+	(label "3V3"
+		(at 159.7901 91.139 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a040410f-d8e9-47f1-ad67-5a0613e63ff4")
+	)
+	(label "3V3"
+		(at 190.9359 133.0463 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4505776-d22b-4583-9182-188a1cc83fe9")
+	)
+	(label "FAN"
+		(at 226.6927 133.0463 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5935cda-dbf7-4f26-b57f-dd55744802fc")
+	)
+	(label "SDA"
+		(at 27.0421 50.4599 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b960e2be-b506-4266-a770-844f39cb511b")
+	)
+	(label "SCL"
+		(at 222.6859 119.0763 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba1ec3a7-4074-422f-8d28-adb972612f48")
+	)
+	(label "5V"
+		(at 190.9359 135.5863 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc1c8224-e1d4-4aa8-bcbe-fd0d35670ce3")
+	)
+	(label "3V3"
+		(at 192.2059 157.1763 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbccfbf0-8a78-494d-9b09-00b438efe401")
+	)
+	(label "FAN_PWM"
+		(at 94.8338 52.9999 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d107691d-a05e-4496-8736-4f96a8758596")
+	)
+	(label "5V"
+		(at 128.7059 126.6963 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16c2814-61c6-4689-a9db-6c7487b2c67a")
+	)
+	(label "GND"
+		(at 92.9772 96.8744 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1d5a32b-73a4-4bbc-a612-b8498e760989")
+	)
+	(label "TX"
+		(at 190.9359 119.0763 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2130992-1195-474b-9390-24cff316f1d1")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 95.5172 96.8744 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a9ec3dc-e8de-49ee-9a6e-42a19fca3e49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8008 96.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitair:SMTSO3025CTJ")
+		(at 44.2392 84.7958 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "006d5803-980f-4bd0-a99e-a9d7cf625303")
+		(property "Reference" "MT3"
+			(at 41.5859 77.2859 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSO3025CTJ"
+			(at 48.5042 86.0657 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitair:SMD_BD5.6-D4.1"
+			(at 44.2392 96.2258 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916365.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=RFkPXl1WRAIPVVFRFVhWUwVWEVgKUgAHT1ReVlUEFFExVlNeRVZcV1FfQVFbUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVhfUVdUQ08GEwkK"
+			(at 44.2392 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Board Spacers, Standoffs RoHS"
+			(at 44.2392 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2916365"
+			(at 44.2392 98.7658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
+			(at 44.2392 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMTSO3025CTJ"
+			(at 44.2392 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "076108d1-0075-4849-b72d-23ab204719a5")
+		)
+		(pin "4"
+			(uuid "370f7f46-fa8c-4af3-af71-bb18600b8eb2")
+		)
+		(pin "1"
+			(uuid "ed879746-798b-4de6-ae5e-aef31dabc94e")
+		)
+		(pin "2"
+			(uuid "f831d28f-6f04-4b4a-a30c-0d509c8d7b27")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "MT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.1592 88.6058 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cbf6e47-1080-4136-b9a2-07a1ba838d2c")
+		(property "Reference" "#PWR010"
+			(at 39.1592 94.9558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.1592 93.0508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.1592 88.6058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.1592 88.6058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.1592 88.6058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34a7ed9d-7190-429f-9bd7-5c226127aa80")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf48962-f8fb-4f77-bd4e-f4ce9102ddf3")
+		(property "Reference" "#PWR05"
+			(at 43.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 151.765 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b17963b4-cea7-4e7a-b86d-71d27187c2e6")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.0048 89.3733 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d5c8dc1-a7b2-4a2e-9713-7f4fc272efda")
+		(property "Reference" "TP1"
+			(at 94.0048 83.0233 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 95.2747 83.6583 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 99.0848 89.3733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.0848 89.3733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 94.0048 89.3733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "508eb2bd-da4b-4a01-8e79-95f28f36f21d")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.6784 96.8702 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337e6199-5368-4646-a59b-c6e475c6b023")
+		(property "Reference" "#PWR014"
+			(at 88.6784 103.2202 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.6785 100.1152 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.6784 96.8702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.6784 96.8702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.6784 96.8702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0c9574d-af63-458b-b586-9e975f4716c1")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 64.863 42.8399 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33d09cca-84fa-42fb-8d04-6c5cb4e51936")
+		(property "Reference" "#PWR045"
+			(at 64.863 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 64.863 39.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.863 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.863 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 64.863 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85e2e050-64e1-4979-920a-a4b21f603716")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b09b84-02b7-44a4-939b-ff204d9064ac")
+		(property "Reference" "#PWR04"
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 151.765 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c83ffca-4486-4b6d-93ba-08f04e0d0e67")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002E")
+		(at 54.9821 45.3799 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37fc57fc-0caa-44eb-a18d-d947e8ce293d")
+		(property "Reference" "Q4"
+			(at 54.9821 52.3376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002E"
+			(at 54.9821 54.8776 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 53.0771 50.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30376.pdf"
+			(at 51.1721 50.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 54.9821 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 54.9821 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N7002ET1G"
+			(at 54.9821 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C71533"
+			(at 54.9821 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "14e9b331-c21b-4a3f-b220-d034d4a8741f")
+		)
+		(pin "2"
+			(uuid "26b9f7a2-0a64-47a8-b2c1-fe8abfd98183")
+		)
+		(pin "1"
+			(uuid "e0e17d67-9bb5-4e5d-b2d9-125ca9fbd161")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 130.81 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d448702-db34-4dce-81d1-3665d4269975")
+		(property "Reference" "#PWR06"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45f2ff60-a2ea-4d9a-be65-6e7202fb62bd")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.2472 96.8744 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "418f2cde-f91e-4839-acdd-4673be10cedc")
+		(property "Reference" "TP2"
+			(at 94.2472 103.2244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.9773 102.5894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 89.1672 96.8744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 89.1672 96.8744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 94.2472 96.8744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8963e587-92ed-49be-9a25-baa69758d7ce")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitair:SMTSO3025CTJ")
+		(at 30.2692 102.5758 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57f47e52-8bb8-4df1-ac19-3aba5d35ea7a")
+		(property "Reference" "MT2"
+			(at 27.4979 95.2003 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSO3025CTJ"
+			(at 34.5342 103.8457 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitair:SMD_BD5.6-D4.1"
+			(at 30.2692 114.0058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916365.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=RFkPXl1WRAIPVVFRFVhWUwVWEVgKUgAHT1ReVlUEFFExVlNeRVZcV1FfQVFbUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVhfUVdUQ08GEwkK"
+			(at 30.2692 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Board Spacers, Standoffs RoHS"
+			(at 30.2692 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2916365"
+			(at 30.2692 116.5458 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
+			(at 30.2692 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMTSO3025CTJ"
+			(at 30.2692 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5f91635d-765c-4377-a38b-558696f24d39")
+		)
+		(pin "4"
+			(uuid "db9cc20f-5d9c-4e1a-86b5-37d2cf47e798")
+		)
+		(pin "1"
+			(uuid "25784ed1-5cfe-4d70-baeb-b83baf3c82e0")
+		)
+		(pin "2"
+			(uuid "65df344a-02fb-47c6-9db0-05df47bba5d5")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "MT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.1892 106.3858 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6264a85f-6c7d-48ca-ab42-568b9c93ab49")
+		(property "Reference" "#PWR09"
+			(at 25.1892 112.7358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.1892 110.8308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.1892 106.3858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.1892 106.3858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.1892 106.3858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5caa79ff-e0e4-487e-a991-879ff150f77a")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 88.6784 89.3724 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "631c24e1-0da6-48af-9897-58684ec97a68")
+		(property "Reference" "#PWR046"
+			(at 88.6784 93.1824 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 88.6784 85.5624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.6784 89.3724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.6784 89.3724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 88.6784 89.3724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebbcd562-9b22-4dfd-b472-35a65268c04d")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitair:T34069")
+		(at 36.83 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aaa215d-4a02-48bf-89a5-2c230aac7d65")
+		(property "Reference" "X2"
+			(at 36.83 138.3109 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T34069"
+			(at 36.83 140.8509 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bitair:XFCN_PKT-TH_4P-T34069"
+			(at 22.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PCB SOLDERING TERMINAL"
+			(at 36.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C481452"
+			(at 20.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 36.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "T34069"
+			(at 36.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e4c66e29-131d-4491-8a55-feb2c55b1de6")
+		)
+		(pin "1"
+			(uuid "896b070b-5b71-4fba-9064-1a8759517ec8")
+		)
+		(pin "4"
+			(uuid "2d22538a-7fc1-4f6b-a9f7-b1c652734a0a")
+		)
+		(pin "2"
+			(uuid "228c7f56-6bf0-4d9e-a438-635e73c3f325")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitair:S10B-PHDSS(LF)(SN)")
+		(at 75.023 47.9199 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76167934-c7f8-44fc-bc19-17d3a9747763")
+		(property "Reference" "CN1"
+			(at 71.7149 38.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B10B-PHDSS(LF)(SN)"
+			(at 74.5451 58.0027 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bitair:CONN-TH_B10B-PHDSS-LF-SN"
+			(at 75.023 60.6199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PH-Connectors_JST_S10B-PHDSS-LF-SN_PHDseries-socket-2-5P-pitch2mm-Curved-needle_C161672.html"
+			(at 75.023 63.1599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER TH R/A 10POS 2mm"
+			(at 75.023 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C471519"
+			(at 75.023 65.6999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 75.023 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B10B-PHDSS(LF)(SN)"
+			(at 75.023 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "5222addc-e632-4b6e-ad10-66587854f133")
+		)
+		(pin "1"
+			(uuid "3a2c4404-46b7-4691-9a0a-4b3123bd704b")
+		)
+		(pin "4"
+			(uuid "cfa6af53-afd6-412d-bb28-798b08d19e59")
+		)
+		(pin "3"
+			(uuid "f6a253e9-67c6-4ee9-aff4-7301402cf0dc")
+		)
+		(pin "7"
+			(uuid "0c86c4ce-701f-4440-bd1a-2fa817d035b4")
+		)
+		(pin "5"
+			(uuid "b9d7eb93-3522-4310-85fe-d98f3d3f7167")
+		)
+		(pin "10"
+			(uuid "18ad43ab-e25f-483b-9e87-f1ca61b88db5")
+		)
+		(pin "6"
+			(uuid "2372f1d0-e563-43dd-ba56-c29eff56896b")
+		)
+		(pin "9"
+			(uuid "465a879e-1101-4f46-9300-1c8b5ae7784a")
+		)
+		(pin "2"
+			(uuid "a517dbea-a75c-446f-b033-881f93ee18bd")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 25.7721 46.6499 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89643ec5-53a4-46e1-b510-c1c870ece714")
+		(property "Reference" "R44"
+			(at 20.1372 46.1226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 20.0441 48.1822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 25.7721 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.7721 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 4.7K 1%"
+			(at 25.7721 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 25.7721 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906869"
+			(at 25.7721 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed82e51a-7144-4ee2-9c39-1c57dc0624e9")
+		)
+		(pin "2"
+			(uuid "3200647a-d35b-4956-a5e5-54a7f4c436ab")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.1892 88.6058 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98eb7b84-4b59-4618-a3b6-00af77527598")
+		(property "Reference" "#PWR08"
+			(at 25.1892 94.9558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.1892 93.0508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.1892 88.6058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.1892 88.6058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.1892 88.6058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42a68a72-0cdf-4044-8276-49768307d50a")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.863 42.8399 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a45131cc-7595-4c43-8d5e-f0c7e60ee132")
+		(property "Reference" "#FLG03"
+			(at 62.958 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.053 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.863 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.863 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.863 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d24875e-1373-4f1c-9e74-875a51af7682")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 130.81 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e9d33b-0339-4f3f-96f8-d250d3bec638")
+		(property "Reference" "#PWR07"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec69de51-26b8-4eaa-86ab-4a4345d112db")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitair:SMTSO3025CTJ")
+		(at 30.2692 84.7958 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acdefba7-e737-4171-a64f-54d1f2db7931")
+		(property "Reference" "MT1"
+			(at 27.4849 77.2377 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSO3025CTJ"
+			(at 34.5342 86.0657 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitair:SMD_BD5.6-D4.1"
+			(at 30.2692 96.2258 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916365.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=RFkPXl1WRAIPVVFRFVhWUwVWEVgKUgAHT1ReVlUEFFExVlNeRVZcV1FfQVFbUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVhfUVdUQ08GEwkK"
+			(at 30.2692 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Board Spacers, Standoffs RoHS"
+			(at 30.2692 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2916365"
+			(at 30.2692 98.7658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
+			(at 30.2692 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMTSO3025CTJ"
+			(at 30.2692 84.7958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e54ee9e3-2a84-482b-958c-541d01c088d7")
+		)
+		(pin "4"
+			(uuid "a488a42b-26d6-4dd4-ab0f-8761feb5a42a")
+		)
+		(pin "1"
+			(uuid "961c2675-6c2d-41a6-aff2-2228296201fa")
+		)
+		(pin "2"
+			(uuid "9e2a7178-f2ab-4b08-b9c7-4d1fa765ed1a")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "MT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitair:SMTSO3025CTJ")
+		(at 44.2392 102.5758 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2032fc1-815c-4529-a534-ecd64edb6356")
+		(property "Reference" "MT4"
+			(at 41.5322 95.0624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSO3025CTJ"
+			(at 48.5042 103.8457 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitair:SMD_BD5.6-D4.1"
+			(at 44.2392 114.0058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916365.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=RFkPXl1WRAIPVVFRFVhWUwVWEVgKUgAHT1ReVlUEFFExVlNeRVZcV1FfQVFbUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVhfUVdUQ08GEwkK"
+			(at 44.2392 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Board Spacers, Standoffs RoHS"
+			(at 44.2392 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2916365"
+			(at 44.2392 116.5458 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
+			(at 44.2392 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMTSO3025CTJ"
+			(at 44.2392 102.5758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6745eb19-7754-4163-b98a-e0337a4384d4")
+		)
+		(pin "4"
+			(uuid "98ade562-1605-4745-9ec9-5f8fc2da4a86")
+		)
+		(pin "1"
+			(uuid "d76611d3-6406-45f7-8247-4230d42034a1")
+		)
+		(pin "2"
+			(uuid "c08575e3-d64b-437a-aea7-65a14a563b65")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "MT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.183 45.3799 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8958ff1-e9c1-4d88-b3ab-baa3640c65b2")
+		(property "Reference" "#PWR012"
+			(at 91.533 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.428 45.3798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.183 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.183 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.183 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5ec453f-e29d-45a3-ab32-9e1e6b2401b9")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "T34069_1")
+		(lib_id "bitair:T34069")
+		(at 36.83 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c55ca6-b8e0-45d1-9a6e-adf205f50072")
+		(property "Reference" "X1"
+			(at 36.83 121.9111 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T34069"
+			(at 36.83 124.4511 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bitair:XFCN_PKT-TH_4P-T34069"
+			(at 22.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PCB SOLDERING TERMINAL"
+			(at 36.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C481452"
+			(at 20.32 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 36.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "T34069"
+			(at 36.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0c4dcf9f-34b4-47a2-8d96-5d7854a1294e")
+		)
+		(pin "1"
+			(uuid "5b486944-f150-417d-afeb-7e3a48f33067")
+		)
+		(pin "4"
+			(uuid "96e5c641-0a9c-4d9c-bfbd-23018e9d54e2")
+		)
+		(pin "2"
+			(uuid "5e6a082e-9030-45b2-8f08-dc97a4593a99")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.7665 110.0723 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca4cf412-af22-4d3f-9ef0-763554a229ed")
+		(property "Reference" "#PWR047"
+			(at 194.7665 113.8823 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 194.7665 106.2623 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.7665 110.0723 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.7665 110.0723 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.7665 110.0723 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "450c7584-0b46-4c21-8265-78298f44f03d")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.863 45.3799 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9d41d0e-0048-4615-9de8-1bc201ec7348")
+		(property "Reference" "#PWR013"
+			(at 58.513 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 61.618 45.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.863 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.863 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.863 45.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "569b4520-ea3d-4079-a5ac-b499aef29d26")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.1592 106.3858 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9f66113-f0a2-479b-b24c-35b6d969b18c")
+		(property "Reference" "#PWR011"
+			(at 39.1592 112.7358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.1592 110.8308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.1592 106.3858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.1592 106.3858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.1592 106.3858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11764bdf-a20e-4443-a336-3c733b47ebc6")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.183 42.8399 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbbdb856-0559-4ff5-ac33-ebbb32b396ee")
+		(property "Reference" "#PWR044"
+			(at 85.183 46.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 85.183 39.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.183 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.183 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.183 42.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef6704d4-94ea-4aec-8bc2-4f2c9444a6a1")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002E")
+		(at 37.2021 47.9199 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e241d142-5571-485d-bcd9-8ddcd1920811")
+		(property "Reference" "Q5"
+			(at 37.2021 54.8776 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002E"
+			(at 37.2021 57.4176 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 35.2971 52.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30376.pdf"
+			(at 33.3921 52.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 37.2021 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 37.2021 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N7002ET1G"
+			(at 37.2021 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C71533"
+			(at 37.2021 47.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "512d9ac9-5f59-4da2-8fbc-3fce1aa226e5")
+		)
+		(pin "2"
+			(uuid "fa4074bb-3e1f-4a9e-9f45-83e2b2b7ae44")
+		)
+		(pin "1"
+			(uuid "efdb6064-db9f-4268-a01b-434d6172bf94")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.5521 44.1099 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e92b20b4-a7f2-40a2-8d09-b4119323b3c1")
+		(property "Reference" "R43"
+			(at 37.9172 43.5826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 37.8241 45.6422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.5521 44.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.5521 44.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 4.7K 1%"
+			(at 43.5521 44.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.5521 44.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906869"
+			(at 43.5521 44.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9364abd5-9da2-4392-b11e-52f798c5bc35")
+		)
+		(pin "2"
+			(uuid "650c1295-aee1-48da-8661-440470bcf9e9")
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.5959 119.0763)
+		(size 17.78 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "4cf9c075-d009-4c35-9949-adda70ae20c7")
+		(property "Sheetname" "BM1370"
+			(at 137.5959 118.3647 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bm1370.kicad_sch"
+			(at 137.5959 137.6949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX" input
+			(at 155.3759 124.1563 0)
+			(uuid "c4c0b3b4-8a5c-486c-854d-ccc0b4925a60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX" output
+			(at 155.3759 121.6163 0)
+			(uuid "424bf359-e741-47f3-a9b9-1eb328cf8e88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST" input
+			(at 155.3759 126.6963 0)
+			(uuid "b0a69e87-cd6d-468b-83de-f06c2397a2f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 137.5959 129.2363 180)
+			(uuid "b58395a3-a057-42c2-87c2-1df46dae093f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 137.5959 126.6963 180)
+			(uuid "c2df387e-48f1-45f7-8abb-b1cd47da5639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 137.5959 124.1563 180)
+			(uuid "fe07d78e-8200-43d1-ae9c-4d7599be57f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP_N" output
+			(at 155.3759 131.7763 0)
+			(uuid "ca16bad4-0e07-407e-b117-6e173dc3946c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP_P" output
+			(at 155.3759 134.3163 0)
+			(uuid "5c39b7d4-e0ec-4681-92dc-1ada4017dc95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.8259 145.7463)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "8e8832ea-6bf1-49d2-b3a5-32a207f555d2")
+		(property "Sheetname" "Fan"
+			(at 199.8259 145.0347 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan.kicad_sch"
+			(at 199.8259 160.3009 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 221.4159 150.8263 0)
+			(uuid "ab8b3fae-a527-4a08-9cea-411ed3bb0262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 221.4159 153.3663 0)
+			(uuid "593c6788-903d-45a9-a8b1-c8e4219ea665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 199.8259 157.1763 180)
+			(uuid "3bc71f2d-53ea-4dbd-b8fb-74681448b62d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP_N" input
+			(at 199.8259 148.2863 180)
+			(uuid "b80dc711-a9fd-4498-9025-59f917b8a32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP_P" input
+			(at 199.8259 150.8263 180)
+			(uuid "8347ed9c-b20f-4899-9279-392b6e9d4cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_PWM" input
+			(at 221.4159 157.1763 0)
+			(uuid "ffe39170-9719-4d63-9fc6-e611b7fea8ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 199.8259 153.9145 180)
+			(uuid "8ba089b3-40e1-4b4c-9b2f-c32e46a9f092")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.5959 87.3263)
+		(size 16.51 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "8ec0a9c6-2b78-44ef-a83d-9047d2828409")
+		(property "Sheetname" "Power"
+			(at 137.5959 86.6147 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 137.5959 108.1543 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD" output
+			(at 137.5959 97.4863 180)
+			(uuid "cabb89b1-9d2e-440d-94cb-0b6c3180648c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 137.5959 89.3267 180)
+			(uuid "75774a4c-884f-4fcc-ac43-7fce4365b895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 154.1059 93.6763 0)
+			(uuid "317fd698-be46-4f1b-843d-aa42118bd002")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 154.1059 96.2163 0)
+			(uuid "782b8d76-867c-4d80-8cd1-603313eeff01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 154.1059 91.1363 0)
+			(uuid "24f34f08-ba90-4da4-bb47-4712ca4c30ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGOOD" output
+			(at 154.1059 105.1063 0)
+			(uuid "31e2def0-a6e4-410f-9883-8adb3501ac6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMB_ALRT" output
+			(at 154.1059 102.5663 0)
+			(uuid "cea3d115-b7dc-46bf-bd36-089b43c92dc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.8259 100.0263)
+		(size 21.59 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "ca857324-2ec8-447e-bd58-90d0c2e6b6d7")
+		(property "Sheetname" "ESP32"
+			(at 199.8259 99.3147 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 199.8259 138.7109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 221.4159 116.5363 0)
+			(uuid "bca82dc7-5a68-4d25-a4ac-0590b1e5b728")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 221.4159 119.0763 0)
+			(uuid "af7e746f-b773-41bd-8409-c2c348914847")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX" input
+			(at 199.8259 116.5363 180)
+			(uuid "d5c52adf-cf39-499a-9117-76036c9061a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" output
+			(at 199.8259 119.0763 180)
+			(uuid "e766071b-f627-4a97-baf6-ca7a79b67d46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST" output
+			(at 199.8259 121.6163 180)
+			(uuid "f0847ef2-1dee-43de-bba9-e14854885c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 199.8259 135.5863 180)
+			(uuid "88a48359-3603-4fef-bd86-2f6ce91fbbd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" output
+			(at 199.8259 133.0463 180)
+			(uuid "248d2981-8692-4af8-8a07-e4ce4e8cdcf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGOOD" input
+			(at 199.8259 105.1063 180)
+			(uuid "3d6fe7ed-dd0f-45a1-b149-0ad54cb17ea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 199.8259 130.5063 180)
+			(uuid "62229c31-0a19-4517-a39d-91313c1f1447")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMB_ALRT" input
+			(at 199.8259 102.5663 180)
+			(uuid "646a20c3-2c54-4b89-b96f-4f3825b4b1fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 221.4159 105.1063 0)
+			(uuid "d35f5723-3b19-4144-bca0-b18f4bab8a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED" output
+			(at 221.4159 130.5063 0)
+			(uuid "8847a28b-d187-4fad-a35a-8a505f310651")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN" input
+			(at 221.4159 133.0463 0)
+			(uuid "4c68fe7c-f988-4889-963b-8e50e4995af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 199.8259 110.0723 180)
+			(uuid "d1fb27e8-8b1e-4c3c-9bb0-8b7377d9fe96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 103.7966 87.3263)
+		(size 16.51 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "e78f9884-80ab-43a6-ae5d-9e796aa54bda")
+		(property "Sheetname" "Power_15_5"
+			(at 103.7966 86.6147 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_15_5.kicad_sch"
+			(at 96.1491 108.1881 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" input
+			(at 103.7966 89.3267 180)
+			(uuid "5ce5b08f-685b-4632-ae70-eda26254280e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V0" input
+			(at 120.3066 89.3267 0)
+			(uuid "55ac6d3d-1843-49e8-bab0-77255ede2ad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bitair-mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

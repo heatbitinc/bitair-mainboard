@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.kicad_sym")(options "")(descr ""))
+  (lib (name "bitair")(type "KiCad")(uri "${KIPRJMOD}/bitair.kicad_sym")(options "")(descr ""))
+  (lib (name "Heatbit")(type "KiCad")(uri "${KIPRJMOD}/Heatbit.kicad_sym")(options "")(descr ""))
+)
